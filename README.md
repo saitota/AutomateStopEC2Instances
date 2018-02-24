@@ -14,7 +14,8 @@ Automatically stop instances with Lambda, reduce your AWS usage fee!!
 
 # 🤔 Anything Else
 I wrote article about this function.
-https://qiita.com/saitotak/536cb47f899f5ed86cce
+
+[Github に AWS キーペアをコミットすると抜かれるってほんと？？？ - Qiita](https://qiita.com/saitotak/items/813ac6c2057ac64d5fef)
 
 # 🐑 Author
 [saitotak](https://qiita.com/saitotak)
