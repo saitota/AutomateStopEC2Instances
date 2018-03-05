@@ -24,7 +24,6 @@ def handler(event, context):
     ec2 = session.client('ec2')
     filters = [{'Name' :'tag:Name', 'Values':[ EC2_TARGET_NAME_TAG ] }]
     describes = ec2.describe_instances(Filters=filters)
-
     instances_id = []
     for describe in describes['Reservations']:
         instances_id.append(describe['Instances'][0]['InstanceId'])
