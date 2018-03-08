@@ -7,7 +7,6 @@ Automatically stop instances with Lambda, reduce your AWS usage fee!!
 ## Installation
 1. Create Python 3 Lambda Function
    paste lambda_function.py
-
    * you must change AWS_ACCESS_KEY and AWS_ACCESS_SECRET *
 
 2. Set Cloudwatch Event for trigger
